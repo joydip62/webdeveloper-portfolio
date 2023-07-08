@@ -1,8 +1,14 @@
+@import "./all.min.css";
+
 /* global css */
 * {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+}
+section {
+  width: 1140px;
+  margin: auto;
 }
 .btn {
   background-color: #fd6e0a;
@@ -11,7 +17,30 @@
   border: none;
   font-weight: bold;
 }
-
+p {
+  color: #757575;
+}
+.center {
+  text-align: center;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
 /* header css */
 header .header {
   background-color: #fff8f3;
@@ -26,8 +55,8 @@ header .header {
   justify-content: space-around;
   align-items: center; */
 }
-header .header .developer-img{
-    width: 100%;
+header .header .developer-img {
+  width: 100%;
 }
 header .header .developer-img h1 {
   color: rgba(24, 24, 24, 0.15);
@@ -46,8 +75,9 @@ header .header nav {
 }
 header .header nav h1 {
   font-size: 30px;
+  width: 585px;
 }
-header .header  nav span {
+header .header nav span {
   color: #fd6e0a;
 }
 header .header nav .nav-bar ul {
@@ -88,16 +118,7 @@ header .header .header-container .banner-section .header-content h1 {
 header .header .header-container .banner-section .header-content p {
   margin: 15px 0;
 }
-header
-  .header
-  .header-container
-  .banner-section
-  .header-content
-  .button-section {
-  /* display: flex;
-    justify-content: space-evenly;
-    align-items: center; */
-}
+
 header
   .header
   .header-container
@@ -109,10 +130,84 @@ header
   font-size: 20px;
   font-weight: 600;
 }
+header
+  .header
+  .header-container
+  .banner-section
+  .header-content
+  .button-section
+  .contact {
+  background-color: transparent;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  margin-left: 15px;
+}
 
 header .header .header-container .banner-section .header-profile-image {
   width: 584px;
 }
 header .header .header-container .banner-section .header-profile-image img {
   margin-bottom: -5px;
+}
+
+/* About section  */
+.about {
+  height: 550px;
+  border-radius: 10px;
+  background: #fff8f3;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.about .about-container > p {
+  width: 80%;
+  margin: auto;
+  padding: 40px 0;
+}
+.about .contact-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .contact-part div {
+  width: 20%;
+}
+
+/* what i do part */
+.what-do {
+  margin-top: 150px;
+}
+
+.what-do > p {
+  width: 80%;
+  margin: auto;
+  padding: 40px 0;
+}
+.what-do .what-do-container {
+    display: flex;
+    justify-content: space-between;
+}
+.what-do .what-do-container .box {
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+.what-do .what-do-container .box img {
+  width: 44px;
+  height: 44px;
+}
+.what-do .what-do-container .box h3 {
+  color: #181818;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.what-do .what-do-container .box p {
+  color: #757575;
+  font-weight: 400;
+  line-height: 28px;
 }
