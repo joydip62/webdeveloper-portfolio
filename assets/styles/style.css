@@ -10,13 +10,16 @@ section {
   width: 1140px;
   margin: auto;
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 .btn {
-  background-color: #fd6e0a;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
   color: white;
-  padding: 10px 20px;
-  border: none;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
 }
 p {
   color: #757575;
@@ -42,8 +45,6 @@ p {
   font-weight: 400;
   line-height: 30px;
 }
-
-
 
 /* header css */
 
@@ -93,48 +94,38 @@ header .header .banner-section {
   justify-content: space-between;
   align-items: center;
 }
-header .header  .banner-section .header-content {
+header .header .banner-section .header-content {
   width: 585px;
-  margin-left: 200px;
+  margin-left: 150px;
 }
-header .header  .banner-section .header-content h2 {
+header .header .banner-section .header-content h2 {
   font-size: 25px;
   font-weight: 500;
 }
-header .header  .banner-section .header-content h1 {
+header .header .banner-section .header-content h1 {
   font-size: 42px;
   margin: 15px 0;
 }
-header .header  .banner-section .header-content p {
+header .header .banner-section .header-content p {
   margin: 15px 0;
 }
 
-header
-  .header
-  .banner-section
-  .header-content
-  .button-section
-  button {
+header .header .banner-section .header-content .button-section button {
   display: inline-block;
   font-size: 20px;
   font-weight: 600;
 }
-header
-  .header
-  .banner-section
-  .header-content
-  .button-section
-  .contact {
+header .header .banner-section .header-content .button-section .contact {
   background-color: transparent;
   color: #fd6e0a;
   border: 1px solid #fd6e0a;
   margin-left: 15px;
 }
 
-header .header  .banner-section .header-profile-image {
+header .header .banner-section .header-profile-image {
   width: 584px;
 }
-header .header  .banner-section .header-profile-image img {
+header .header .banner-section .header-profile-image img {
   margin-bottom: -5px;
 }
 
@@ -147,7 +138,6 @@ header .header  .banner-section .header-profile-image img {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .about .about-container > p {
   width: 80%;
@@ -171,8 +161,8 @@ header .header  .banner-section .header-profile-image img {
   padding: 40px 0;
 }
 .what-do .what-do-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .what-do .what-do-container .box {
   width: 200px;
@@ -197,3 +187,93 @@ header .header  .banner-section .header-profile-image img {
   line-height: 28px;
 }
 
+/* My resume section */
+.my-resume .resume-container {
+  display: flex;
+  gap: 50px;
+}
+.my-resume .resume-container .resume-colum {
+  padding-top: 30px;
+}
+.my-resume .resume-container .resume-colum h2 {
+  padding: 20px 0;
+  color: var(--dark-02, #474747);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.my-resume .resume-container .resume-colum .resume-item {
+}
+.my-resume .resume-container .resume-colum .resume-item h3 {
+  color: var(--dark-02, #474747);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.my-resume .resume-container .resume-colum .resume-item h4 {
+  color: var(--dark-03, #757575);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 20px 0;
+}
+.my-resume .resume-container .resume-colum .resume-item p {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.my-resume .resume-container .resume-colum .resume-item hr {
+  margin: 30px;
+}
+
+.my-resume .download-cv {
+  margin: 50px 0;
+  text-align: center;
+}
+
+/* footer start */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff8f3;
+  padding: 150px;
+}
+footer .contact {
+  width: 500px;
+}
+footer h2 {
+  color: var(--dark-01, #181818);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer .contact p {
+  color: var(--dark-02, #474747);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 20px 0;
+}
+footer .message input, textarea {
+  display: block;
+  margin: 20px 0;
+  width: 461px;
+  border-radius: 5px;
+  background: var(--white-color, #fff);
+  border: none;
+  color: var(--dark-03, #757575);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 15px;
+}
+footer .message button {
+  display: block;
+  margin: 20px 0;
+}
