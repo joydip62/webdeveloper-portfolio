@@ -46,36 +46,20 @@ p {
 
 
 /* header css */
+
 header .header {
   background-color: #fff8f3;
-  padding: 30px 0 0 150px;
-  background-image: url("./../img/header_bg.png");
-  background-position: bottom right;
+  background-image: url("./../img/header_bg.png"), url("./../img/developer.png");
+  background-position: bottom right, top left;
   background-repeat: no-repeat;
 }
+
 /* nav bar style */
-header .header {
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
-}
-header .header .developer-img {
-  width: 100%;
-}
-header .header .developer-img h1 {
-  color: rgba(24, 24, 24, 0.15);
-  font-family: Open Sans;
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 33px;
-  transform: rotate(-90deg);
-}
 header .header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 30px;
 }
 header .header nav h1 {
   font-size: 30px;
@@ -103,29 +87,30 @@ header .header nav .nav-bar li button {
 }
 
 /* banner style */
-header .header .header-container .banner-section {
+
+header .header .banner-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header .header .header-container .banner-section .header-content {
+header .header  .banner-section .header-content {
   width: 585px;
+  margin-left: 200px;
 }
-header .header .header-container .banner-section .header-content h2 {
+header .header  .banner-section .header-content h2 {
   font-size: 25px;
   font-weight: 500;
 }
-header .header .header-container .banner-section .header-content h1 {
+header .header  .banner-section .header-content h1 {
   font-size: 42px;
   margin: 15px 0;
 }
-header .header .header-container .banner-section .header-content p {
+header .header  .banner-section .header-content p {
   margin: 15px 0;
 }
 
 header
   .header
-  .header-container
   .banner-section
   .header-content
   .button-section
@@ -136,7 +121,6 @@ header
 }
 header
   .header
-  .header-container
   .banner-section
   .header-content
   .button-section
@@ -147,10 +131,10 @@ header
   margin-left: 15px;
 }
 
-header .header .header-container .banner-section .header-profile-image {
+header .header  .banner-section .header-profile-image {
   width: 584px;
 }
-header .header .header-container .banner-section .header-profile-image img {
+header .header  .banner-section .header-profile-image img {
   margin-bottom: -5px;
 }
 
